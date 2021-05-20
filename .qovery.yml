@@ -1,0 +1,11 @@
+---
+application:
+  name: "contacts-list"
+  project: "first-project"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-contacts-list"
+  routes:
+  - application_name: "contacts-list"
+    paths:
+    - "/*"
